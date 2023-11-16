@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grapher Shot</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    /> -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="con">
@@ -19,7 +27,7 @@
             <div class="image">
               <a href=""><img src="images/Logo.png" alt="" /></a>
             </div>
-            <nav>
+            <nav class="navbar">
               <ul>
                 <li><a href="">PORTFOLIO</a></li>
                 <li><a href="">ABOUT ME</a></li>
@@ -28,6 +36,28 @@
                 <li><a href="">CONTACT</a></li>
               </ul>
             </nav>
+
+            <div class="menu-wrap">
+              <input type="checkbox" class="toggler" />
+
+              <div class="hamburger">
+                <div></div>
+              </div>
+
+              <div class="menu">
+                <div>
+                  <div>
+                    <ul>
+                      <li><a href="">PORTFOLIO</a></li>
+                      <li><a href="">ABOUT ME</a></li>
+                      <li><a href="">PORTFOLIO</a></li>
+                      <li><a href="">PRICE</a></li>
+                      <li><a href="">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </header>
         <main>
@@ -45,21 +75,24 @@
                 alt=""
               />
             </div>
-
-            <div class="social-icons">
-              <i class="uit uit-linkedin-alt"></i>
-              <i class="uit uit-twitter-alt"></i>
-              sdfgh
+            <div class="home-sci">
+              <a href=""><i class="bx bxl-twitter"></i></a>
+              <!-- <a href=""><i class="fa fa-google"></i></a> -->
+              <a href=""><i class="bx bxl-facebook"></i></a>
+              <a href=""><i class="bx bxl-linkedin"></i></a>
             </div>
+            <!-- THE LINE BEFORE THE ICON -->
+            <div class="before"></div>
+            <div class="after"></div>
           </div>
         </main>
       </section>
 
-      <!-- <section class="section2">
+      <section class="section2">
         <div class="section2-con">
-          <h2>ABOUT US</h2>
+          <h2>ABOUT ME</h2>
         </div>
-      </section> -->
+      </section>
     </div>
   </body>
 </html>
