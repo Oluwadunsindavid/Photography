@@ -399,7 +399,7 @@ nav ul li a:hover {
 
   @media only screen and (max-width: 380px) {
     /* STYLING THE MAN IMAGE DIV*/
-    .image1 {
+    /* .image1 {
       width: 100%;
       height: 100%;
       display: flex;
@@ -407,7 +407,7 @@ nav ul li a:hover {
       justify-content: center;
     }
 
-    /*target the image directly */
+    target the image directly
     .image1 img {
       width: 250px;
       position: absolute;
@@ -417,7 +417,7 @@ nav ul li a:hover {
     .h-con .logo img {
       width: 100px;
       transition: 0.5s;
-    }
+    } */
   }
 }
 
