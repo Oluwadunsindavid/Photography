@@ -765,7 +765,7 @@ a {
 
 .twitter1 {
   display: flex;
-  gap: 10px;
+  gap: 0 10px;
 }
 
 .twitter-pic {
@@ -839,8 +839,14 @@ hr {
   }
 
   .twitter-pic img {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .twitter-txt {
+    color: #fff;
+    /* background-color: red; */
+    /* margin: 0 auto; */
   }
 
   .twitter1 > div > h3 {
