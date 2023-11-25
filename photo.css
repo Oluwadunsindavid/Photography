@@ -729,3 +729,127 @@ a {
     font-size: calc(0rem + 4vw);
   }
 }
+
+/* SECTION 5 */
+
+.section5 {
+  padding: 50px;
+  background-color: rgb(20, 31, 36);
+}
+
+.section5-con {
+  padding: 20px 40px;
+}
+
+.section5-cona {
+  display: flex;
+  gap: 10px;
+}
+
+.section5-con h2 {
+  font-family: Cormorant;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.div1 {
+  padding: 20px;
+  background-color: rgb(35, 57, 66);
+  max-width: 380px;
+}
+
+.twitter1 {
+  display: flex;
+  gap: 10px;
+}
+
+.twitter-pic {
+  height: 100%;
+  object-fit: cover;
+}
+
+.twitter-pic img {
+  width: 66px;
+  height: 66px;
+}
+
+.twitter-txt {
+  color: #fff;
+}
+
+.twitter1 > div > h3 {
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.twitter1 > div > p {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+hr {
+  background-color: #fff;
+  border: none;
+  height: 1px;
+  margin: 10px 0;
+}
+
+.div1 p {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .section5 {
+    padding: 25px;
+  }
+  .section5-con {
+    padding: 0px 30px;
+  }
+
+  .section5-con h2 {
+    font-size: calc(3rem + 2vw);
+    text-align: center;
+  }
+
+  .section5-cona {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .twitter-pic img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .twitter1 > div > h3 {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .twitter1 > div > p {
+    color: #fff;
+    font-size: 15px;
+  }
+}
