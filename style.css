@@ -709,6 +709,7 @@ a {
   backdrop-filter: blur(2px);
   border: none;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
