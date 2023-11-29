@@ -569,6 +569,15 @@ a {
   margin: 5rem 0;
 }
 
+@media only screen and (max-width: 850px) {
+  .nav-link1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 15px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .nav-menu1 {
     position: fixed;
